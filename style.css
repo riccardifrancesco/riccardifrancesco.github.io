@@ -281,16 +281,16 @@ nav ul li a {
     margin: auto;
 }
 .about-img img{
-    width: 80%;
+    width: 90%;
     border-radius: 20px;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 .about h1{
     text-align: left;
     margin-bottom: 10px;
     font-weight: 900;
     color: #0d69a3;
-    font-size: 29px;
+    font-size: 30px;
 }
 .about desc{
     display: flex;
@@ -305,5 +305,40 @@ nav ul li a {
     width: 80px;
     margin: 0 15px;
     display: block;
-    margin-top: 10  px
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 770px){
+    .title-text{
+        font-size: 25px;
+    }
+    #imgAbout{
+        width: 80px;
+        margin: 0 auto;
+        display: block;
+        margin-top: 90px
+        }
+    .about{
+        flex-basis: 100%;
+    }
+    .about-img{
+        flex-basis: 100%;
+        margin: auto;
+    }
+    .about-text p{
+        text-align: initial;
+        font-size: 15px;
+    }
+    #aboutImg{
+        width: 70px;
+        margin: 0 15px;
+        display: block;
+        margin-top: 10px;
+    }
+    .about-img img{
+        width: 100%;
+        margin-top: 70px;
+    }
+    
+    
 }
