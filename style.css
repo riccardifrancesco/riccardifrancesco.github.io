@@ -19,15 +19,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: +1;
 }
 
 .navbar {
-    width: auto;
+    width: 100%;
     height: 1.4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: #0d69a3;
+    position: fixed;
 }
 
 .logo {
@@ -341,4 +343,16 @@ nav ul li a {
     }
     
     
+}
+
+
+/*--collection--*/
+
+#collection{
+    width: 100%;
+    padding: 3px 0;
+    background: #0d69a3e7;
+}
+#collection h1{
+    color: #fff;
 }
