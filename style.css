@@ -395,7 +395,7 @@ nav ul li a {
     width: 70%;
     height: 12%;
     position: absolute;
-    top: 0;
+    bottom: -10px;
     margin-left: 50px;
     margin-top: 240px;
     border-radius: 20px;
@@ -405,15 +405,23 @@ nav ul li a {
     z-index: +1;
     transition: 1s;
 }
+.buy-now h4{
+    color: rgb(255, 255, 255);
+    margin-top: 7px;
+    font-weight: 100;
+}
 .single-tapir:hover .buy-now{
+    bottom: 8%;
     opacity: 1;
 }
 .tapir-name{
     width: 80%;
     position: absolute;
-    bottom: 40%;
+    bottom: 0;
     left: 50%;
+    opacity: 0;
     transform: translateX(-50%);
+    transition: 0.8s;
     color: black;
     z-index: +1;
 }
@@ -424,5 +432,13 @@ hr{
     margin: 15px auto;
     width: 85%;
 }
+.tapir-name h3{
+    font-size: 18px;
+}
+.single-tapir:hover .tapir-name{
+    bottom: 40%;
+    opacity: 1;
+}
+
 
 
