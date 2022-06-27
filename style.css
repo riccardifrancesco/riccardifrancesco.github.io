@@ -351,7 +351,7 @@ nav ul li a {
 #collection{
     width: 100%;
     padding: 3px 0;
-    background: #0d69a3e7;
+    background: #0d69a3cc;
 }
 #collection h1{
     color: #fff;
@@ -438,6 +438,12 @@ hr{
 .single-tapir:hover .tapir-name{
     bottom: 40%;
     opacity: 1;
+}
+@media screen and (max-width: 770px){
+    .single-tapir{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
 }
 
 
