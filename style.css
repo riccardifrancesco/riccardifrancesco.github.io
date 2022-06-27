@@ -356,3 +356,22 @@ nav ul li a {
 #collection h1{
     color: #fff;
 }
+
+.tapir-box{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.single-tapir{
+    flex-basis: 20%;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 33px;
+    color: #fff;
+}
+.single-tapir img{
+    width: 90%;
+    border-radius: 20px;
+}
