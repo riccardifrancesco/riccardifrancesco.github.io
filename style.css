@@ -248,7 +248,7 @@ nav ul li a {
 
 #about{
     width: 100%;
-    
+    padding: 3px 0;
 }
 .title-text{
     text-align: center;
@@ -453,7 +453,7 @@ hr{
 
 #team{
     width: 100%;
-    padding: 70px 0;
+    padding: 3px 0;
     background: #fff;
 }
 #team h1{
@@ -462,7 +462,7 @@ hr{
     font-size: 55px;
 }
 .team-row{
-    width: 80%;
+    width: 90%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -476,8 +476,105 @@ hr{
     border-radius: 5px;
     box-shadow: 0 10px 20px 3px #0d69a34d;
     cursor: pointer;
+    border-radius: 20px;
+    margin-left: 200px;
+    transition: transform .5s;
+}
+.team-col:hover{
+    transform: translateY(-10px);
+}
+.creator{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+.creator img{
+    width: 100%;
+    margin-top: 8px;
+    margin-left: -2.5px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    border-radius: 10px;
+    
+}
+.creator-info{
+    align-items: center;
+}
+.team-col h4{
+    font-size: 25px;
+    margin-top: -15px;
+    margin-left: 7px;
+}
+.team-col a{
+    width: auto;
+    font-size: 18px;
+    margin-top: -5px;
+    margin-left: 7px;
+    color: #0d69a3;
+    text-decoration: none;
+}
+.team-col hr{
+    width: 97%;
+    height: 2px;
 }
 .team-col p{
-    font-size: 15px;
+    font-size: 16px;
+    margin-top: -5px;
+    margin-left: 7px;
+    margin-bottom: 5px;
 }
+
+.insta{
+    margin-top: 5px;
+}
+.insta img{
+    width: 20px;
+    margin-left: 10px;
+    position: absolute;
+}
+.team-col2{
+    flex-basis: 28%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px #0d69a34d;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-right: 200px;
+    transition: transform .5s;
+}
+.team-col2:hover{
+    transform: translateY(-10px);
+}
+.team-col2 h4{
+    font-size: 25px;
+    margin-top: -15px;
+    margin-left: 7px;
+}
+.team-col2 small{
+    font-size: 18px;
+    margin-top: -5px;
+    margin-left: 7px;
+    color: #0d69a3;
+}
+.team-col2 hr{
+    width: 97%;
+    height: 2px;
+}
+.team-col2 p{
+    font-size: 15px;
+    margin-top: -5px;
+    margin-left: 7px;
+    margin-bottom: 5px;
+}
+.team-col2 a{
+    width: auto;
+    font-size: 18px;
+    margin-top: -5px;
+    margin-left: 7px;
+    color: #0d69a3;
+    text-decoration: none;
+}
+
+
 
