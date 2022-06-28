@@ -193,6 +193,7 @@ nav ul li a {
         border-radius: 3px;
         z-index: 3;
         cursor: pointer;
+        z-index: +11;
     }
     #menu{
         display: inline;
