@@ -457,11 +457,11 @@ hr{
 }
 #roadmap{
     padding: 3px 0;
+    background-color: #0000001f;
 }
 #roadmap h1{
     color: #000000;
 }
-
 .container {
   min-height: 100vh;
   width: 100%;
@@ -469,7 +469,6 @@ hr{
   align-items: center;
   justify-content: center;
   padding: 20px 0;
-  background-color: rgb(255, 255, 255);
 }
 .timeline {
   width: 80%;
@@ -487,6 +486,7 @@ hr{
 .timeline ul {
   list-style: none;
 }
+
 .timeline ul li {
   padding: 20px;
   background-color: #0d69a3;
@@ -503,11 +503,21 @@ hr{
 .timeline ul li:last-child {
   margin-bottom: 0;
 }
+.tapiro-1{
+    width: 150px;
+    margin-left: -200px;
+    margin-top: 60px;
+}
+.tapiro-2{
+    width: 150px;
+    margin-left: 430px;
+    margin-top: 60px;
+}
 .timeline-content h2 {
   font-weight: 700;
   font-size: 35px;
   line-height: 30px;
-  margin-top: 8px;
+  margin-top: -140px;
   margin-left: 10px;
 }
 .timeline-content h3 {
@@ -584,25 +594,6 @@ hr{
     background-color: #0d69a3;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*---Team---*/
 
@@ -686,15 +677,15 @@ hr{
 }
 @media screen and (max-width: 770px){
     .team-col{
-        width: 220px;
-        margin-left: 60px;
+        width: 250px;
+        margin-left: 55px;
         margin-bottom: 50px;
     }
     .team-col a{
         width: auto;
         font-size: 15px;
         margin-top: -5px;
-        margin-left: 7px;
+        margin-left: 5px;
         color: #0d69a3;
         text-decoration: none;
     }
