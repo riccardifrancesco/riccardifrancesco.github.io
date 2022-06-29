@@ -754,7 +754,8 @@ hr{
     margin: 10px 0;
 }
 #contact p{
-    line-height: 35px;
+    line-height: 30px;
+    font-size: 17px;
 }
 .contact-row{
     width: 80%;
@@ -772,5 +773,36 @@ hr{
     text-align: right;
 }
 .contact-right{
-    font-weight: 600;
+    font-weight: 500;
+}
+.contact-logo{
+    width: 300px;
+    margin-left: 610px;
+    margin-top: -200px;
+    opacity: 0.3;
+}
+.social-links{
+   text-align: right;
+   margin-right: 200px;
+   margin-top: -200px;
+}
+.social-links img{
+    width: 50px;
+    margin-top: 100px;
+    margin-bottom: -10px;
+    margin-left: 10px;
+    cursor: pointer;
+    box-shadow: 0 0px 7px 2px #0d69a35e;
+}
+.social-links img:hover{
+    transform: translateY(-7px);
+    transition: transform .5s;
+}
+.social-links p{
+    font-size: 12px;
+    margin-top: 20px;
+}
+.copyright{
+    text-align: center;
+    margin-top: 130px;
 }
