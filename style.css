@@ -189,7 +189,7 @@ nav ul li a {
         text-align: center;
         position: fixed;
         right: 30px;
-        top: 10px;
+        top: 17px;
         border-radius: 3px;
         z-index: +7;
         cursor: pointer;
@@ -503,12 +503,12 @@ hr{
 .timeline ul li:last-child {
   margin-bottom: 0;
 }
-.tapiro-1{
+.tapiro1{
     width: 150px;
     margin-left: -200px;
     margin-top: 60px;
 }
-.tapiro-2{
+.tapiro2{
     width: 150px;
     margin-left: 430px;
     margin-top: 60px;
@@ -535,24 +535,7 @@ hr{
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.timeline-content .date {
-  font-size: 12px;
-  font-weight: 300;
-  margin-bottom: 10px;
-  letter-spacing: 2px;
-}
-@media only screen and (min-width: 768px) {
-  .timeline:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 2px;
-    height: 100%;
-    background-color: rgb(0, 0, 0);
-  }
-  .timeline ul li {
+.timeline ul li {
     width: 50%;
     position: relative;
     margin-bottom: 50px;
@@ -586,12 +569,53 @@ hr{
     transform: translate(-50%, -50%);
     left: -30px;
   }
-  .timeline-content .date {
-    position: absolute;
-    top: -30px;
-  }
   .timeline ul li:hover::before {
     background-color: #0d69a3;
+  }
+  .timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+  }
+
+@media screen and (max-width: 770px){
+  .tapiro2 {
+    display: none;
+  }
+  .tapiro1{
+    display: none;
+  }
+  .timeline:before{
+    display: none;
+  }
+  .timeline ul li::before{
+    display: none;
+  }
+  .timeline ul li {
+    width: 340px;
+    height: 210px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .timeline-content h2{
+    font-size: 27px;
+    margin-top: 10px;
+  }
+  .timeline-content h3{
+    font-size: 20px;
+    margin-top: 6px;
+  }
+  .timeline-content p{
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 25px;
+    margin-bottom: 10px;
   }
 }
 
@@ -714,3 +738,39 @@ hr{
     }
 }
 
+/*---Contact---*/
+
+#contact{
+    width: 100%;
+    padding: 3px 0;
+    background: #0000001f;
+}
+#contact h1{
+    color: rgb(0, 0, 0);
+}
+#contact h2{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin: 10px 0;
+}
+#contact p{
+    line-height: 35px;
+}
+.contact-row{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact-left,.contact-right{
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.contact-right{
+    text-align: right;
+}
+.contact-right{
+    font-weight: 600;
+}
