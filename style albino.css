@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text{
+    margin: auto;
+    font-size: 30px;
+    color: #0d69a3;
+    font-weight: bold;
+}
+#imgAbout{
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 90px
+}
+.single-tapir{
+    flex-basis: 20%;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 33px;
+    color: #fff;
+    position: relative;
+    
+}
+.single-tapir img{
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px 3px #00000046;
+}
+.overlay{
+    width: 50%;
+    height: 99.6%;
+    position: absolute;
+    top: 0;
+    margin-left: 475px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: linear-gradient(rgba(255, 255, 255, 0.356),rgb(255, 255, 255));
+    opacity: 0;
+    transition: 0.8s;
+}
+.single-tapir:hover .overlay{
+    opacity: 1;
+}
+.buy-now{
+    width: 40%;
+    height: 12%;
+    position: absolute;
+    align-content: center;
+    bottom: -10px;
+    margin-left: 410px;
+    margin-top: 240px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: #0d69a3;
+    opacity: 0;
+    z-index: +1;
+    transition: 1s;
+}
+.buy-now h4{
+    color: rgb(255, 255, 255);
+    margin-top: 7px;
+    font-weight: 100;
+}
+.single-tapir:hover .buy-now{
+    bottom: 8%;
+    opacity: 1;
+}
+.tapir-name{
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: 0.8s;
+    color: black;
+    z-index: +1;
+}
+hr{
+    background: rgb(0, 0, 0);
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 55%;
+}
+.tapir-name h3{
+    font-size: 23px;
+}
+.single-tapir:hover .tapir-name{
+    bottom: 40%;
+    opacity: 1;
+}
+*{border: solid red 1px;}

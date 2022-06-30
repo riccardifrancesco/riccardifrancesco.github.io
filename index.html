@@ -21,9 +21,14 @@
 
 <body>
 <section id="home">
+    <style>
+    html {
+        scroll-behavior: smooth;
+      }
+      </style>
     <div class="banner">
         <div class="navbar">
-            <img src="./immagini/2.png" class="logo">
+            <a href="#home"><img src="./immagini/2.png" class="logo"></a>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -81,13 +86,7 @@
             else {
                 sideNav.style.right = "-250px";
                 menu.src = "immagini/menu.png";
-            }    
-            
-            var scroll = new SmoothScroll('a[href*="#"]', {
-	speed: 500,
-	speedAsDuration: true
-    repeat: true
-});
+            }      
     }
 
     </script>

@@ -234,6 +234,7 @@ nav ul li a {
     #sideNav ul li:hover:after {
         width: 100px;
     }
+
     .button {
         display: block;
         margin: 20px auto;  
@@ -815,7 +816,7 @@ hr{
     padding: 13px 10px;
     border: none;
     outline: none;
-    background: #fff;
+    background: rgb(240, 240, 240);
     border-radius: 10px;
     width: 270px;
     margin-left: 10px;
@@ -849,7 +850,7 @@ hr{
         padding: 13px 10px;
         border: none;
         outline: none;
-        background: #fff;
+        background: rgb(240, 240, 240);
         border-radius: 10px;
         width: 270px;
         margin-left: 10px;
