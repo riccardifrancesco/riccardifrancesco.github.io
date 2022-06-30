@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta name="viewport" contet="width =device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 </head>
 
 
@@ -23,12 +25,12 @@
         <div class="navbar">
             <img src="./immagini/2.png" class="logo">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Collection</a></li>
-                <li><a href="#">Roadmap</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="banner">Home</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="collection">Collection</a></li>
+                <li><a href="roadmap">Roadmap</a></li>
+                <li><a href="team">Team</a></li>
+                <li><a href="contact">Contact</a></li>
             </ul>
         </div>
 
@@ -50,12 +52,12 @@
     <div id="sideNav">
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Collection</a></li>
-                <li><a href="#">Roadmap</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="banner">Home</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="collection">Collection</a></li>
+                <li><a href="roadmap">Roadmap</a></li>
+                <li><a href="team">Team</a></li>
+                <li><a href="cantact">Contact</a></li>
             </ul>
         </nav>
     </div>
@@ -80,6 +82,12 @@
                 sideNav.style.right = "-250px";
                 menu.src = "immagini/menu.png";
             }
+            
+                var scroll = new SmoothScroll('a[href*="#"]', {
+                speed: 500,
+                speedAsDuration: true
+                });
+
         }
     </script>
 
