@@ -261,14 +261,12 @@ nav ul li a {
     color: #0d69a3;
     font-weight: bold;
 }
+
 #imgAbout{
     width: 100px;
     margin: 0 auto;
     display: block;
     margin-top: 90px;
-}
-#imgAbout a{
-    width: 10px;
 }
 .title-text{
     font-size: 35px;
@@ -745,7 +743,7 @@ hr{
         height: 2px;
     }
 }
-*{border: solid red 1px;}
+
 /*---Contact---*/
 
 #contact{
