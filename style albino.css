@@ -867,12 +867,12 @@ hr{
         font-size: 17px;
         border: none;
         border-radius: 10px;
-        background: #0d69a3;
+        background: #b61c1f;
         cursor: pointer;
         transition: 0.3s;
     }
     .form-box button:hover{
-        background: #1287cf;
+        background: #df2125;
     }
     .contact-logo{
         width: 250px;

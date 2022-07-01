@@ -708,8 +708,8 @@ hr{
         margin-left: 55px;
         margin-bottom: 50px;
     }
-    .team h1{
-        font-size: 410px;
+    #team h1{
+        font-size: 40px;
     }
     .team-col a{
         width: auto;
