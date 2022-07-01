@@ -27,7 +27,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #0d69a3;
+    background: #b61c1f;
     position: fixed;
     z-index: +5;
 }
@@ -258,7 +258,7 @@ nav ul li a {
 .title-text{
     margin: auto;
     font-size: 30px;
-    color: #0d69a3;
+    color: #b61c1f;
     font-weight: bold;
 }
 #imgAbout{
@@ -294,7 +294,7 @@ nav ul li a {
     text-align: left;
     margin-bottom: 10px;
     font-weight: 900;
-    color: #0d69a3;
+    color: #b61c1f;
     font-size: 30px;
 }
 .about desc{
@@ -354,7 +354,7 @@ nav ul li a {
 #collection{
     width: 100%;
     padding: 3px 0;
-    background: #0d69a3cc;
+    background: #b61c1fcc;
 }
 #collection h1{
     color: #fff;
@@ -404,7 +404,7 @@ nav ul li a {
     margin-top: 240px;
     border-radius: 20px;
     cursor: pointer;
-    background: #0d69a3;
+    background: #b61c1f;
     opacity: 0;
     z-index: +1;
     transition: 1s;
@@ -491,7 +491,7 @@ hr{
 
 .timeline ul li {
   padding: 20px;
-  background-color: #0d69a3;
+  background-color: #b61c1f;
   color: rgb(255, 255, 255);
   border-radius: 10px;
   margin-bottom: 20px;
@@ -572,7 +572,7 @@ hr{
     left: -30px;
   }
   .timeline ul li:hover::before {
-    background-color: #0d69a3;
+    background-color: #b61c1f;
   }
   .timeline:before {
     content: "";
@@ -629,7 +629,7 @@ hr{
     background: #fff;
 }
 #team h1{
-    color: #0d69a3;
+    color: #b61c1f;
     font-weight: 900;
     font-size: 55px;
 }
@@ -646,7 +646,7 @@ hr{
     padding: 10px;
     margin: 0px 100px;
     border-radius: 5px;
-    box-shadow: 0 10px 20px 3px #0d69a34d;
+    box-shadow: 0 10px 20px 3px #b61c1f42;
     cursor: pointer;
     border-radius: 20px;
     transition: transform .5s;
@@ -680,7 +680,7 @@ hr{
     font-size: 18px;
     margin-top: -5px;
     margin-left: 7px;
-    color: #0d69a3;
+    color: #b61c1f;
     text-decoration: none;
 }
 .team-col hr{
@@ -712,7 +712,7 @@ hr{
         font-size: 15px;
         margin-top: -5px;
         margin-left: 5px;
-        color: #0d69a3;
+        color: #b61c1f;
         text-decoration: none;
     }
     .team-row{
@@ -794,7 +794,7 @@ hr{
     margin-bottom: -10px;
     margin-left: 10px;
     cursor: pointer;
-    box-shadow: 0 0px 7px 2px #0d69a35e;
+    box-shadow: 0 0px 7px 2px #b61c1f42;
     transition: transform .5s;
 }
 .social-links img:hover{
@@ -808,7 +808,7 @@ hr{
 .form-box{
     padding: 0px 10px 0px 10px;
     border-radius: 10px;
-    box-shadow: 0 10px 20px 3px #0d69a34d;
+    box-shadow: 0 10px 20px 3px #b61c1f42;
 }
 .form-box input{
     font-size: 16px;
@@ -828,12 +828,16 @@ hr{
     font-size: 17px;
     border: none;
     border-radius: 10px;
-    background: #0d69a3;
+    background: #b61c1f;
     cursor: pointer;
     transition: 0.3s;
 }
 .form-box button:hover{
-    background: #1287cf;
+    background: #e42427;
+}
+.form-box a{
+    color: #fff;
+    text-decoration: none;
 }
 @media screen and (max-width: 770px){
     .box{
@@ -842,7 +846,7 @@ hr{
     }
     .form-box{
         border-radius: 10px;
-        box-shadow: 0 10px 20px 3px #0d69a34d;
+        box-shadow: 0 10px 20px 3px #b61c1f42;
     }
     .form-box input{
         font-size: 16px;

@@ -835,6 +835,10 @@ hr{
 .form-box button:hover{
     background: #1287cf;
 }
+.form-box a{
+    color: #fff;
+    text-decoration: none;
+}
 @media screen and (max-width: 770px){
     .box{
         width: 25%;
