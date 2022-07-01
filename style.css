@@ -265,8 +265,11 @@ nav ul li a {
     width: 100px;
     margin: 0 auto;
     display: block;
-    margin-top: 90px
-    }
+    margin-top: 90px;
+}
+#imgAbout a{
+    width: 10px;
+}
 .title-text{
     font-size: 35px;
 }
@@ -631,7 +634,7 @@ hr{
 #team h1{
     color: #0d69a3;
     font-weight: 900;
-    font-size: 55px;
+    font-size: 50px;
 }
 .team-row{
     width: 90%;
@@ -707,6 +710,9 @@ hr{
         margin-left: 55px;
         margin-bottom: 50px;
     }
+    .team h1{
+        font-size: 410px;
+    }
     .team-col a{
         width: auto;
         font-size: 15px;
@@ -739,7 +745,7 @@ hr{
         height: 2px;
     }
 }
-
+*{border: solid red 1px;}
 /*---Contact---*/
 
 #contact{
