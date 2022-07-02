@@ -360,7 +360,13 @@ nav ul li a {
 @media screen and (max-width: 1400px) and (min-width: 800px){
     .about-text p{
         text-align: initial;
-        font-size: 14px;
+        font-size: 12.5px;
+        width: 90%;
+    }
+    .about-img img{
+        width: 105%;
+        border-radius: 20px;
+        margin-top: 25px;
     }
 }
 
@@ -463,6 +469,42 @@ hr{
     .single-tapir{
         flex-basis: 100%;
         margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 800px){
+    .overlay{
+        width: 90%;
+        height: 98%;
+        position: absolute;
+        top: 0;
+        margin-left: 12px;
+        border-radius: 20px;
+        cursor: pointer;
+        background: linear-gradient(rgba(255, 255, 255, 0.356),rgb(255, 255, 255));
+        opacity: 0;
+        transition: 0.8s;
+    }
+    .tapir-name h3{
+        font-size: 14px;
+    }
+    .buy-now{
+        width: 70%;
+        height: 12%;
+        bottom: -10px;
+        margin-left: 35px;
+        margin-top: 240px;
+        border-radius: 20px;
+        cursor: pointer;
+        background: #b61c1f;
+        opacity: 0;
+        z-index: +1;
+        transition: 1s;
+    }
+    .buy-now h4{
+        color: rgb(255, 255, 255);
+        margin-top: 3px;
+        font-weight: 100;
     }
 }
 
@@ -911,5 +953,65 @@ hr{
         margin-left: 20px;
         margin-top: -390px;
         margin-bottom: 30px;
+     }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 800px){
+    .box{
+        width: 25%;
+        margin-left: -15px;
+    }
+    .form-box{
+        border-radius: 10px;
+        box-shadow: 0 10px 20px 3px #b61c1f42;
+    }
+    .form-box input{
+        font-size: 16px;
+        color: #000000;
+        padding: 13px 10px;
+        border: none;
+        outline: none;
+        background: rgb(240, 240, 240);
+        border-radius: 10px;
+        width: 270px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .form-box button{
+        width: 270px;
+        color: #fff;
+        padding: 13px 20px;
+        font-size: 17px;
+        border: none;
+        border-radius: 10px;
+        background: #b61c1f;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .contact-logo{
+        width: 300px;
+        margin-left: 380px;
+        margin-top: -200px;
+        opacity: 0.3;
+    }
+    .contact-right{
+        text-align: right;
+        font-weight: 500;
+        margin-right: -380px;
+        margin-top: -210px;
+    }
+    .social-links{
+        text-align: right;
+        margin-right: 30px;
+        margin-top: -200px;
+     }
+    .social-links img{
+        width: 50px;
+        margin-top: 400px;
+        margin-bottom: -10px;
+        margin-left: 10px;
+        cursor: pointer;
+        box-shadow: 0 0px 7px 2px #b61c1f42;
+        transition: transform .5s;
      }
 }
